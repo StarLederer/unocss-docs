@@ -19,9 +19,16 @@
   ],
   "scripts": {
     "build": "unbuild",
-    "stub": "unbuild --stub"
+    "stub": "unbuild --stub",
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview ."
   },
   "dependencies": {
     "@unocss/core": "^0.50.0"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.47",
+    "vue": "^3.2.47"
   }
 }

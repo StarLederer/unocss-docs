@@ -32,6 +32,17 @@ importers:
       vitepress: 1.0.0-alpha.47_2r467mdhb7mblpaox4bg7fatdi
       vue: 3.2.47
 
+  packages/preset-test-2:
+    specifiers:
+      '@unocss/core': ^0.50.0
+      vitepress: 1.0.0-alpha.47
+      vue: ^3.2.47
+    dependencies:
+      '@unocss/core': 0.50.0
+    devDependencies:
+      vitepress: 1.0.0-alpha.47_2r467mdhb7mblpaox4bg7fatdi
+      vue: 3.2.47
+
   packages/test-preset-1:
     specifiers:
       '@unocss/core': ^0.50.0
