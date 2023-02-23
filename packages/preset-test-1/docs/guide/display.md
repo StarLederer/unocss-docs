@@ -1,5 +1,5 @@
-# Docs about disaply utils
+# Docs about display utils
 
 Utilities:
-- `block` : `disaply: block`
-- `hidden` : `disaply: none`
+- `block` : `display: block`
+- `hidden` : `display: none`
