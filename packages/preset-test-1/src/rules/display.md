@@ -2,7 +2,7 @@
   import display from './display'
 </script>
 
-# Disaply
+# Display
 
 These utilities do things.
 
