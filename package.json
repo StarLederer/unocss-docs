@@ -1,0 +1,29 @@
+{
+  "name": "unocss-docs",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@7.11.0",
+  "scripts": {},
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.35.2",
+    "eslint": "^8.34.0",
+    "simple-git-hooks": "^2.8.1",
+    "typescript": "^4.9.5",
+    "unbuild": "^1.1.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "@nuxt/kit-edge": "npm:@nuxt/kit@latest",
+      "nuxt": "^3.2.0",
+      "magic-string": "^0.27.0"
+    }
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,vue,md}": [
+      "eslint --cache --fix"
+    ]
+  }
+}
